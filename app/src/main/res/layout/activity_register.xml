@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:padding="10dp"
+              android:background="@drawable/login_bk"
+              android:layout_height="match_parent">
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/default_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/urseNmae"
+        android:hint="请输入账号"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:imeOptions="actionNext"
+        android:id="@+id/password"
+        android:hint="请输入密码"
+        android:inputType="numberPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:imeOptions="actionDone"
+        android:layout_marginTop="5dp"
+        android:id="@+id/reconfirmpass"
+        android:hint="请确认密码"
+        android:inputType="numberPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="注册"
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:background="@drawable/btn_login_selector"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
